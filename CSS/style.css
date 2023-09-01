@@ -1,0 +1,289 @@
+@import url('https://fonts.cdnfonts.com/css/arriere-garde');
+/* font-family: 'Arrière Garde', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 320px){
+
+/* HEADER */
+
+body{
+    position: relative;
+}
+
+header{
+    width: 100vh;
+    background-image: url(/Imagenes/fondodegradegrisesalrevescorta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header div picture{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header div picture img{
+    border-radius: 50vh;
+    background-color: #f05edd6e;
+    width: 80vh;  
+    padding: 1vh;
+    margin: 3vh;
+    margin-bottom: 10vh;
+}
+
+header p{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1vh;
+    margin: 2vh;
+    color: #fff;
+}
+
+.flecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha img{
+    width: 20vh;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 2vh;
+    padding: 2vh;
+    margin-bottom: 4vh;
+}
+
+nav ul li a{
+    height: 20vh;
+    text-decoration: none;
+    padding: 2vh;
+    margin: 3vh;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+.botonvolver img{
+    width: 20vh;
+    position: fixed;
+    bottom: 10vh;
+    right: 6vh;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 2.5s;
+}   
+
+/* MAIN */
+
+main{
+    width: 100vh;
+    background: url(/Imagenes/fondodegradegrises.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.sobremi{
+    border: 2vh solid;
+    border-image: linear-gradient(to right, #f05eddc0, #161616);
+    border-image-slice: 1;
+    width: 70vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-color: #ffffff8a;
+    
+}
+
+.sobremi p{
+    font-size: 1.3em;
+    padding: 1vh;
+    margin: 3vh;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.sobremi picture img{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -10vh;
+}
+
+.quiensoy{
+    width: 66vh;
+    padding: 3vh;
+    backdrop-filter: blur(21px) saturate(180%);
+    -webkit-backdrop-filter: blur(21px) saturate(180%);
+    background-color: rgba(155, 155, 155, 0.75);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.titulo{
+    width: 100vh;
+    padding: 5vh;
+    margin-top: 3vh;
+    font-size: 2.5em;   
+    margin-top: 10vh;
+    text-align: center;
+    color: #fff;
+}
+
+.conocimientos img{
+    width: 35vh;
+    padding: 5vh;
+}
+
+.agrupadoriconos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icoconoc{
+    padding: 2vh;
+    margin: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.562);
+}
+
+.icoconoc p{
+    font-size: 1.5em;
+}
+
+.misproyectos{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyectos{
+    border: 2vh solid;
+    border-image: linear-gradient(to right, #f05eddc0, #161616);
+    border-image-slice: 1;
+    width: 90vh;
+    margin: 5vh;
+    background-color: #ffffff5d;
+}
+
+.proyectos h4{
+    font-size: 2em;
+    text-align: center;
+    padding: 3vh;
+}
+
+.proyectos p{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3vh;
+}
+
+.imagen1{
+    width: 86vh;
+}
+
+.imagen2{
+    width: 86vh;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    width: 100vh;
+    background-image: url(/Imagenes/fondodegradegrisesalreves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+
+.contactame{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulocontacto{
+    font-size: 2.5em;   
+    padding: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+    color: #fff;
+}
+
+.iconos{
+    margin: 2vh;
+}
+.iconos a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.iconos a img{
+    width: 10vh;
+    margin: 3vh;   
+}
+
+.cardicono{
+    border-radius: 50vh;
+    box-shadow: 10px 10px 26px 5px rgba(255,255,255,0.53);
+    background-color:#f05edd63;
+    padding: 5vh;
+    margin: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-end ;
+}
+
+.copy{
+    align-self: flex-end;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 130px;
+    right: -100px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+}
