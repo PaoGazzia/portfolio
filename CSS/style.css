@@ -42,7 +42,7 @@ header div picture{
 header div picture img{
     border-radius: 40vh;
     background-color: #f05edd6e;
-    width: 50vh;  
+    width: 40vh;  
     padding: 1vh;
     margin: 3vh;
     margin-bottom: 7vh;
@@ -50,7 +50,7 @@ header div picture img{
 }
 
 header p{
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     padding: 1vh;
     margin: 2vh;
@@ -83,7 +83,7 @@ nav ul li{
     padding: 2vh;
     margin-bottom: 4vh;
     border: 1px solid;
-    width: 50vh;
+    width: 45vh;
     text-align: center;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -103,8 +103,8 @@ nav ul li a{
 .botonvolver img{
     width: 10vh;
     position: fixed;
-    bottom: 7vh;
-    right: 2vh;
+    bottom: 2vh;
+    right: 1vh;
     z-index: 1;
     cursor: pointer;
     transition: all 2.5s;
@@ -126,7 +126,7 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    width: 60vh;
+    width: 50vh;
     margin: 0 auto;
     margin-top: 15vh;
     background-color: #ffffff8a;
@@ -141,7 +141,7 @@ main{
 }
 
 .sobremi picture img{
-    width: 50vh;
+    width: 44vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ main{
 }
 
 .quiensoy{
-    width: 56vh;
+    width: 46vh;
     padding: 3vh;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -162,7 +162,7 @@ main{
 }
 
 .titulo{
-    padding: 5vh;
+    padding: 3vh;
     margin-top: 3vh;
     font-size: 1.5em;   
     margin-top: 10vh;
@@ -171,8 +171,8 @@ main{
 }
 
 .conocimientos img{
-    width: 25vh;
-    padding: 5vh;
+    width: 21vh;
+    padding: 3vh;
 }
 
 .agrupadoriconos{
@@ -183,8 +183,8 @@ main{
 }
 
 .icoconoc{
-    width: 25vh;
-    height: 38vh;
+    width: 23vh;
+    height: 28vh;
     margin: 2vh;
     display: flex;
     flex-wrap: wrap;
@@ -213,7 +213,7 @@ main{
     border-image-slice: 1;
     margin: 5vh;
     background-color: #ffffff5d;
-    width: 55vh;
+    width: 48vh;
 }
 
 .proyectos h4{
@@ -230,7 +230,7 @@ main{
 }
 
 .proyectos a img{
-    width: 51vh;
+    width: 44vh;
 }
 
 /* FOOTER */
@@ -273,10 +273,10 @@ footer{
 }
 
 .cardicono{
-    border-radius: 15vh;
+    border-radius: 10vh;
     box-shadow: 10px 10px 26px 5px rgba(255,255,255,0.53);
     background-color:#f05edd63;
-    padding: 2vh;
+    padding: 1vh;
     margin: 2vh;
     display: flex;
     flex-wrap: wrap;
