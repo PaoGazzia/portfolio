@@ -79,7 +79,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
-    margin: 2vh;
+    margin: 1vh 0 1vh 0;
     padding: 1vh;
     margin-bottom: 4vh;
     border: 1px solid;
@@ -102,12 +102,15 @@ nav ul li a{
 
 .botonvolver img{
     width: 10vh;
+    /* border-radius: 10vh;
+    background-color:#f05edd63; */
+    padding: 1vh;
+    margin: 2vh;
     position: fixed;
     bottom: 2vh;
-    right: 2vh;
+    right: 1vh;
     z-index: 1;
     cursor: pointer;
-    transition: all 2.5s;
 }   
 
 /* MAIN */
