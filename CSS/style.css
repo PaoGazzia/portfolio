@@ -104,7 +104,7 @@ nav ul li a{
     width: 10vh;
     position: fixed;
     bottom: 2vh;
-    right: 1vh;
+    right: 3vh;
     z-index: 1;
     cursor: pointer;
     transition: all 2.5s;
@@ -171,7 +171,7 @@ main{
 }
 
 .conocimientos img{
-    width: 21vh;
+    width: 18vh;
     padding: 3vh;
 }
 
@@ -183,7 +183,7 @@ main{
 }
 
 .icoconoc{
-    width: 23vh;
+    width: 20vh;
     height: 28vh;
     margin: 2vh;
     display: flex;
@@ -195,7 +195,7 @@ main{
 }
 
 .icoconoc p{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 
@@ -213,7 +213,7 @@ main{
     border-image-slice: 1;
     margin: 5vh;
     background-color: #ffffff5d;
-    width: 48vh;
+    width: 45vh;
 }
 
 .proyectos h4{
@@ -230,7 +230,7 @@ main{
 }
 
 .proyectos a img{
-    width: 44vh;
+    width: 41vh;
 }
 
 /* FOOTER */
