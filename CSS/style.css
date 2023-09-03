@@ -80,10 +80,10 @@ nav ul{
 nav ul li{
     list-style: none;
     margin: 2vh;
-    padding: 2vh;
+    padding: 1vh;
     margin-bottom: 4vh;
     border: 1px solid;
-    width: 45vh;
+    width: 42vh;
     text-align: center;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -104,7 +104,7 @@ nav ul li a{
     width: 10vh;
     position: fixed;
     bottom: 2vh;
-    right: 3vh;
+    right: 2vh;
     z-index: 1;
     cursor: pointer;
     transition: all 2.5s;
@@ -126,7 +126,7 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    width: 50vh;
+    width: 46vh;
     margin: 0 auto;
     margin-top: 15vh;
     background-color: #ffffff8a;
@@ -141,7 +141,7 @@ main{
 }
 
 .sobremi picture img{
-    width: 44vh;
+    width: 42vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ main{
 }
 
 .quiensoy{
-    width: 46vh;
+    width: 42vh;
     padding: 3vh;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -163,7 +163,6 @@ main{
 
 .titulo{
     padding: 3vh;
-    margin-top: 3vh;
     font-size: 1.5em;   
     margin-top: 10vh;
     text-align: center;
@@ -211,9 +210,9 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    margin: 5vh;
+    margin: 3vh;
     background-color: #ffffff5d;
-    width: 45vh;
+    width: 42vh;
 }
 
 .proyectos h4{
@@ -230,7 +229,7 @@ main{
 }
 
 .proyectos a img{
-    width: 41vh;
+    width: 38vh;
 }
 
 /* FOOTER */
