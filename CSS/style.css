@@ -50,7 +50,7 @@ header div picture img{
 }
 
 header p{
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     padding: 1vh;
     margin: 2vh;
@@ -108,7 +108,7 @@ nav ul li a{
     margin: 2vh;
     position: fixed;
     bottom: 2vh;
-    right: 1vh;
+    right: 0;
     z-index: 1;
     cursor: pointer;
 }   
