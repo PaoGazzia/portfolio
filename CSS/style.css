@@ -275,7 +275,7 @@ footer{
 .titulocontacto{
     font-size: 1.5em;   
     padding: 2vh;
-    margin-top: 2vh;
+    margin-top: 4vh;
     text-align: center;
     color: #fff;
 }
@@ -318,9 +318,9 @@ footer{
 
 form {
     width: 42vh;
+    margin-top: 3vh;
     padding: 2.2vh;
-    background-color: #7977777e;
-    
+    background-color: #7977777e;  
 }
 
 label {
@@ -337,7 +337,7 @@ textarea {
     width: 37vh;
     padding: 2vh;
     margin-bottom: 3vh;
-    border: 1px solid #cccccccc;  
+    border: 1.5px solid  #f05eddc0;  
     background-color: #ffffff6c; 
 }
 
@@ -349,7 +349,7 @@ button[type="submit"] {
     background-color: #000000a9;
     color: rgba(255, 255, 255, 0.63);
     padding: 10px 20px;
-    border: 1px solid #cccccccc; 
+    border: 1.5px solid  #f05eddc0; 
     cursor: pointer;
 }
 
