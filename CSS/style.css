@@ -226,7 +226,7 @@ main{
 .proyectos p{
     font-size: 1sem;
     text-align: center;
-    padding: 3vh;
+    padding: 4vh;
 }
 
 .proyectos a{
@@ -246,15 +246,14 @@ main{
     top: -3vh;
     left: -2vh;
     z-index: 1;
-    padding: 3vh;
-
+    padding: 2vh;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
     background-color: rgba(155, 155, 155, 0.356);
     text-align: center;
     font-size: 1em;
     color: #000;
-    font-weight: bold;
+    
 }
 
 /* FOOTER */
@@ -283,23 +282,24 @@ footer{
 
 .iconos{
     margin: 1.5vh;
-}
-.iconos a{
+    margin-top: 5vh;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .iconos a img{
-    width: 5vh;
+    width: 6vh;
     margin: 2vh;   
 }
 
 .cardicono{
     border-radius: 7vh;
-    box-shadow: 10px 10px 26px 5px rgba(255,255,255,0.53);
-    background-color:#f05edd63;
+    box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
+    background-color:#f05edd7c;
     padding: 1vh;
     margin: 2vh;
     display: flex;
@@ -314,6 +314,47 @@ footer{
     bottom: 110px;
     left:-100px;
     font-size: 0.9em;
+}
+
+form {
+    width: 42vh;
+    padding: 2.2vh;
+    background-color: #7977777e;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 2vh;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 37vh;
+    padding: 2vh;
+    margin-bottom: 3vh;
+    border: 1px solid #cccccccc;  
+    background-color: #ffffff6c; 
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #000000a9;
+    color: rgba(255, 255, 255, 0.63);
+    padding: 10px 20px;
+    border: 1px solid #cccccccc; 
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff6c; 
 }
 
 }
