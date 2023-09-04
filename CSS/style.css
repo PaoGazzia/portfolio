@@ -142,7 +142,7 @@ main{
 }
 
 .sobremi picture img{
-    width: 42vh;
+    width: 30vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -292,7 +292,7 @@ footer{
 }
 
 .iconos a img{
-    width: 6vh;
+    width: 5vh;
     margin: 2vh;   
 }
 
