@@ -455,10 +455,6 @@ button[type="submit"]:hover {
     .misproyectos{
         color: #fff;
     }
-
-    .proyectos{
-        border-image-outset: 1;
-    }
     
     .proyectos h4{
         font-size: 1.3em;
