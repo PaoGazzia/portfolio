@@ -210,7 +210,6 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    border-image-outset: 0.5;
     margin: 3vh;
     background-color: #ffffff5d;
     width: 75%;    
