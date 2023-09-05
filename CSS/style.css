@@ -429,7 +429,7 @@ button[type="submit"]:hover {
     
     .icoconoc{
         width: 25%;
-        height: 40vh;
+        height: 50vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
