@@ -210,7 +210,7 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    /* border-image-outset: 0.5; */
+    border-image-outset: 0.5;
     margin: 3vh;
     background-color: #ffffff5d;
     width: 75%;    
@@ -400,6 +400,10 @@ button[type="submit"]:hover {
     }  
 
     /* MAIN */
+
+    .sobremi{
+        border-image-outset: 2;
+    }
        
     .sobremi p{
         font-size: 1.1em;
@@ -450,6 +454,10 @@ button[type="submit"]:hover {
     
     .misproyectos{
         color: #fff;
+    }
+
+    .proyectos{
+        border-image-outset: 1;
     }
     
     .proyectos h4{
@@ -521,6 +529,6 @@ button[type="submit"]:hover {
     }
 
     .proyectos h4{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 }
