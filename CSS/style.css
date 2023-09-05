@@ -407,7 +407,7 @@ button[type="submit"]:hover {
     }
     
     .sobremi picture img{
-        width: 40%;
+        width: 35%;
         margin-top: -20vh;
     }
     
@@ -474,12 +474,13 @@ button[type="submit"]:hover {
     }
 
     .iconos a img{
-        width: 10vh;
+        width: 14vh;
     }
     
     .cardicono{
-        border-radius: 12vh;
-        margin: 3vh;
+        border-radius: 50%;
+        margin: 5vh;
+        padding: 2vh;
         margin-bottom: 8vh;
         display: flex;
         flex-wrap: wrap;
@@ -512,4 +513,15 @@ button[type="submit"]:hover {
  
 @media screen and (min-width: 1024px) {
 
+    .proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 45%;
+    }
+
+    .proyectos h4{
+        font-size: 1.6em;
+    }
 }
