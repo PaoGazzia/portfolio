@@ -385,6 +385,7 @@ button[type="submit"]:hover {
     
     nav ul li{
         width: 40%;
+        padding: 2vh;
         
     }
     
@@ -418,12 +419,8 @@ button[type="submit"]:hover {
         align-items: center   
     }
     
-    .conocimientos img{
-        width: 20vh;
-        padding: 3vh;
-    }
-    
     .agrupadoriconos{
+        width: ;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -431,13 +428,23 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 28%;
+        width: 24%;
+        height: 35vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 2vh;
-        height: 32vh;
     }
     
     .icoconoc p{
         font-size: 1em;
+    }
+
+    .icoconoc img{
+        width: 60%;
+        padding: 3vh;
     }
     
     .misproyectos{
@@ -459,10 +466,6 @@ button[type="submit"]:hover {
         font-size: 1.5em;     
     }
 
-    .enlace img{
-        height: 45vh;
-    }
-
     /* FOOTER */
     
     .iconos{
@@ -475,7 +478,8 @@ button[type="submit"]:hover {
     
     .cardicono{
         border-radius: 10vh;
-        margin: 2vh;
+        margin: 3vh;
+        margin-bottom: 8vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -498,7 +502,7 @@ button[type="submit"]:hover {
     input[type="email"],
     input[type="text"],
     textarea{
-        width: 77vh;
+        width: 100%;
     }
 }
  
