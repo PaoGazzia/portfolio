@@ -470,16 +470,16 @@ button[type="submit"]:hover {
     /* FOOTER */
     
     .iconos{
-        margin: 6vh;
+        margin: 4vh;
     }
 
     .iconos a img{
-        width: 14vh;
+        width: 9vh;
     }
     
     .cardicono{
         border-radius: 50%;
-        margin: 5vh;
+        margin: 4vh;
         padding: 2vh;
         margin-bottom: 8vh;
         display: flex;
@@ -507,7 +507,6 @@ button[type="submit"]:hover {
         width: 100%;
         padding: 3vh;
         font-size: 1.3em;
-
     }
 }
  
