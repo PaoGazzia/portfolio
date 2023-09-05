@@ -30,7 +30,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 header div picture{
@@ -127,7 +126,7 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
-    width: 46vh;
+    width: 90%;
     margin: 0 auto;
     margin-top: 15vh;
     background-color: #ffffff8a;
@@ -152,7 +151,7 @@ main{
 }
 
 .quiensoy{
-    width: 42vh;
+    width: 100%;
     padding: 3vh;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -211,6 +210,7 @@ main{
     border: 2vh solid;
     border-image: linear-gradient(to right, #161616, #f05eddc0);
     border-image-slice: 1;
+    /* border-image-outset: 0.5; */
     margin: 3vh;
     background-color: #ffffff5d;
     width: 42vh;    
@@ -224,7 +224,7 @@ main{
 }
 
 .proyectos p{
-    font-size: 1sem;
+    font-size: 1em;
     text-align: center;
     padding: 4vh;
 }
@@ -233,8 +233,8 @@ main{
     text-decoration: none;  
 }
 
-.proyectos img{
-    width: 38vh;
+.enlace img{
+    width: 100%;
 }
 
 .enlace{
@@ -299,7 +299,7 @@ footer{
 .cardicono{
     border-radius: 7vh;
     box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
-    background-color:#f05edd7c;
+    background-color:#f05edd59;
     padding: 1vh;
     margin: 2vh;
     display: flex;
@@ -361,12 +361,151 @@ button[type="submit"]:hover {
 
 @media screen and (min-width: 768px) {
 
-header{
-   
+    /* HEADER */
+
+    header div picture img{
+        width: 60vh;  
+    }
+    
+    header p{
+        font-size: 1.4em;
+        letter-spacing: 2px;
+    }
+    
+    .flecha img{
+        width: 18vh;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li{
+        width: 50vh;
+        
+    }
+    
+    nav ul li a{
+        letter-spacing: 2px;  
+    }
+    
+    .botonvolver img{
+        width: 15vh;
+        border-radius: 50%;
+        background-color: #ffffff41;      
+    }  
+
+    /* MAIN */
+       
+    .sobremi p{
+        font-size: 1.1em;
+        line-height: 1.2;
+    }
+    
+    .sobremi picture img{
+        width: 40%;
+        margin-top: -20vh;
+    }
+    
+    .titulo{
+        font-size: 1.8em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center   
+    }
+    
+    .conocimientos img{
+        width: 20vh;
+        padding: 3vh;
+    }
+    
+    .agrupadoriconos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .icoconoc{
+        width: 32vh;
+        padding: 2vh;
+        height: 32vh;
+    }
+    
+    .icoconoc p{
+        font-size: 1em;
+    }
+    
+    .misproyectos{
+        color: #fff;
+    }
+    
+    .proyectos{
+        width: 100vh;   
+    }
+    
+    .proyectos h4{
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .proyectos p{
+        font-size: 1.3em;
+    }
+    
+    .enlace a{
+        padding: 5vh;
+        font-size: 1.5em;     
+    }
+
+    .enlace img{
+        height: 45vh;
+    }
+
+    /* FOOTER */
+    
+    .iconos{
+        margin: 6vh;
+    }
+
+    .iconos a img{
+        width: 9vh;
+    }
+    
+    .cardicono{
+        border-radius: 10vh;
+        margin: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .copy{
+        font-size: 0.9em;
+        color: #fff;
+    }
+    
+    form {
+        width: 60%;  
+    }
+    
+    label {
+        font-size: 1em;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        width: 77vh;
+    }
 }
  
-}
-
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1024px) {
 
 }
