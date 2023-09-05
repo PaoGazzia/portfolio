@@ -385,7 +385,7 @@ button[type="submit"]:hover {
     
     nav ul li{
         width: 40%;
-        padding: 2vh;
+        padding: 3vh;
         
     }
     
@@ -420,7 +420,7 @@ button[type="submit"]:hover {
     }
     
     .agrupadoriconos{
-        width: ;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -428,8 +428,8 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 24%;
-        height: 35vh;
+        width: 26%;
+        height: 38vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -473,11 +473,11 @@ button[type="submit"]:hover {
     }
 
     .iconos a img{
-        width: 9vh;
+        width: 10vh;
     }
     
     .cardicono{
-        border-radius: 10vh;
+        border-radius: 12vh;
         margin: 3vh;
         margin-bottom: 8vh;
         display: flex;
@@ -503,6 +503,9 @@ button[type="submit"]:hover {
     input[type="text"],
     textarea{
         width: 100%;
+        padding: 3vh;
+        font-size: 1.3em;
+
     }
 }
  
