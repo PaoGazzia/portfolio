@@ -82,7 +82,7 @@ nav ul li{
     padding: 1vh;
     margin-bottom: 4vh;
     border: 1px solid;
-    width: 42vh;
+    width: 35vh;
     text-align: center;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -213,7 +213,7 @@ main{
     /* border-image-outset: 0.5; */
     margin: 3vh;
     background-color: #ffffff5d;
-    width: 42vh;    
+    width: 75%;    
 }
 
 .proyectos h4{
@@ -334,7 +334,7 @@ input[type="text"],
 input[type="email"],
 input[type="text"],
 textarea {
-    width: 37vh;
+    width: 100%;
     padding: 2vh;
     margin-bottom: 3vh;
     border: 1.5px solid  #f05eddc0;  
@@ -384,7 +384,7 @@ button[type="submit"]:hover {
     }
     
     nav ul li{
-        width: 50vh;
+        width: 40%;
         
     }
     
@@ -431,7 +431,7 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 32vh;
+        width: 28%;
         padding: 2vh;
         height: 32vh;
     }
@@ -442,10 +442,6 @@ button[type="submit"]:hover {
     
     .misproyectos{
         color: #fff;
-    }
-    
-    .proyectos{
-        width: 100vh;   
     }
     
     .proyectos h4{
@@ -490,18 +486,18 @@ button[type="submit"]:hover {
         color: #fff;
     }
     
-    form {
+    form{
         width: 60%;  
     }
     
-    label {
+    label{
         font-size: 1em;
     }
     
     input[type="text"],
     input[type="email"],
     input[type="text"],
-    textarea {
+    textarea{
         width: 77vh;
     }
 }
