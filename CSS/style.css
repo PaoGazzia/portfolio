@@ -428,8 +428,8 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 26%;
-        height: 38vh;
+        width: 25%;
+        height: 40vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -440,10 +440,11 @@ button[type="submit"]:hover {
     
     .icoconoc p{
         font-size: 1em;
+        padding: 1vh;
     }
 
     .icoconoc img{
-        width: 60%;
+        width: 50%;
         padding: 3vh;
     }
     
