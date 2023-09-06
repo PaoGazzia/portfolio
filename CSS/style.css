@@ -88,6 +88,7 @@ nav ul li{
     -webkit-backdrop-filter: blur(21px) saturate(180%);
     background-color: rgba(5, 5, 5, 0.425);
     border: 1.5px solid  #f05eddc0;
+    box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
 }
 
 nav ul li a{
@@ -172,6 +173,9 @@ main{
 .conocimientos img{
     width: 18vh;
     padding: 3vh;
+    /* background-color: #ffffff8c; */
+    background-color: #f05edd46;
+    box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
 }
 
 .agrupadoriconos{
@@ -182,7 +186,7 @@ main{
 }
 
 .icoconoc{
-    width: 20vh;
+    width: 24vh;
     height: 28vh;
     margin: 2vh;
     display: flex;
@@ -190,11 +194,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f05edd46;
+    /* background-color: #f05edd46; */
+    background-color: #ffffffc4;
 }
 
 .icoconoc p{
     font-size: 0.8em;
+    margin-top: 1vh;
 }
 
 
@@ -384,8 +390,7 @@ button[type="submit"]:hover {
     
     nav ul li{
         width: 40%;
-        padding: 3vh;
-        
+        padding: 3vh; 
     }
     
     nav ul li a{
