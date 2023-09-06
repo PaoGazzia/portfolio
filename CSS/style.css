@@ -186,7 +186,7 @@ main{
 }
 
 .icoconoc{
-    width: 22vh;
+    width: 20vh;
     height: 28vh;
     margin: 2vh;
     display: flex;
@@ -194,7 +194,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #f05edd46; */
     background-color: #ffffffc4;
 }
 
