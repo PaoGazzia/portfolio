@@ -201,6 +201,7 @@ main{
 .icoconoc p{
     font-size: 0.8em;
     margin-top: 1vh;
+    text-align: center;
 }
 
 
@@ -436,23 +437,24 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 25%;
-        height: 50vh;
+        width: 35vh;
+        height: 40vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2vh;
+    
     }
     
     .icoconoc p{
         font-size: 1em;
         padding: 1vh;
+        margin-top: 3vh;
     }
 
     .icoconoc img{
-        width: 50%;
+        width: 60%;
         padding: 3vh;
     }
     
