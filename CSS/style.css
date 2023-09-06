@@ -296,7 +296,6 @@ footer{
     align-items: center;
 }
 
-
 .iconos a img{
     width: 6vh;
     margin: 2vh;   
@@ -357,6 +356,7 @@ button[type="submit"] {
     padding: 10px 20px;
     border: 1.5px solid  #f05eddc0; 
     cursor: pointer;
+    margin-top: 2vh;
 }
 
 button[type="submit"]:hover {
@@ -399,7 +399,7 @@ button[type="submit"]:hover {
     }
     
     .botonvolver img{
-        width: 15vh;
+        width: 9%;
         border-radius: 50%;
         background-color: #ffffff41;      
     }  
@@ -437,7 +437,7 @@ button[type="submit"]:hover {
     }
     
     .icoconoc{
-        width: 35vh;
+        width: 38vh;
         height: 40vh;
         display: flex;
         flex-wrap: wrap;
