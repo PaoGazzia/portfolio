@@ -187,7 +187,7 @@ main{
 
 .icoconoc{
     width: 20vh;
-    height: 28vh;
+    height: 30vh;
     margin: 2vh;
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +199,7 @@ main{
 
 .icoconoc p{
     font-size: 0.8em;
-    margin-top: 1vh;
+    margin-top: 3vh;
     text-align: center;
 }
 
@@ -297,12 +297,12 @@ footer{
 }
 
 .iconos a img{
-    width: 6vh;
+    width: 8vh;
     margin: 2vh;   
 }
 
 .cardicono{
-    border-radius: 7vh;
+    border-radius: 8vh;
     box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
     background-color:#f05edd8a;
     padding: 1vh;
@@ -533,4 +533,9 @@ button[type="submit"]:hover {
     .proyectos h4{
         font-size: 1.5em;
     }
+
+    form{
+        width: 30%;  
+    }
+
 }
