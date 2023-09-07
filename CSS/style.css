@@ -173,8 +173,7 @@ main{
 .conocimientos img{
     width: 18vh;
     padding: 3vh;
-    /* background-color: #ffffff8c; */
-    background-color: #f05edd8a;
+    background-color: #f05edd70;
     box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
 }
 
@@ -297,14 +296,14 @@ footer{
 }
 
 .iconos a img{
-    width: 8vh;
+    width: 7vh;
     margin: 2vh;   
 }
 
 .cardicono{
-    border-radius: 8vh;
+    border-radius: 7vh;
     box-shadow: 10px 10px 26px 5px rgb(32, 32, 32);
-    background-color:#f05edd8a;
+    background-color:#f05edd70;
     padding: 1vh;
     margin: 2vh;
     display: flex;
