@@ -287,7 +287,7 @@ footer{
 }
 
 .iconos{
-    margin: 1.5vh;
+    margin: 6vh;
     margin-top: 5vh;
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +297,7 @@ footer{
 }
 
 .iconos a img{
-    width: 9vh;
+    width: 6vh;
     margin: 2vh;   
 }
 
