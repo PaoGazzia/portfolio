@@ -401,6 +401,7 @@ button[type="submit"]:hover {
     
     .botonvolver img{
         width: 9%;
+        padding: 1vh;
         border-radius: 50%;
         background-color: #ffffff41;      
     }  
@@ -523,6 +524,10 @@ button[type="submit"]:hover {
  
 @media screen and (min-width: 1024px) {
 
+    .sobremi picture img{
+        width: 25%;
+    }
+
     .proyectos{
         display: flex;
         flex-wrap: wrap;
@@ -536,7 +541,18 @@ button[type="submit"]:hover {
     }
 
     form{
-        width: 30%;  
+        width: 40%;  
     }
 
+    .titulo h3{
+        font-size: 1.8em; 
+    }
+
+    .botonvolver img{
+        width: 7%;      
+    }
+
+    nav ul li a{
+        font-size: 1.5em;
+    }
 }
