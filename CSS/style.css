@@ -83,7 +83,7 @@ nav ul li{
     padding: 1vh;
     margin-bottom: 4vh;
     border: 1px solid;
-    width: 70%;
+    width: 65%;
     text-align: center;
     backdrop-filter: blur(21px) saturate(180%);
     -webkit-backdrop-filter: blur(21px) saturate(180%);
@@ -102,9 +102,8 @@ nav ul li a{
 }
 
 .botonvolver img{
-    width: 10vh;
-    padding: 1vh;
-    margin: 2vh;
+    width: 8vh;
+    margin: 2.5vh;
     position: fixed;
     bottom: 2vh;
     right: 0;
@@ -322,7 +321,7 @@ footer{
 }
 
 form {
-    width: 42vh;
+    width: 85%;
     margin-top: 3vh;
     padding: 2.2vh;
     background-color: #7977777e;  
